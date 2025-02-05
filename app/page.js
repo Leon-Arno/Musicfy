@@ -26,6 +26,19 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className='features bg-black text-white py-24'>
+          <div className='container px-4'>
+            <h2 className='font-medium text-5xl'>
+              Statistics. Analytics. Insights.
+            </h2>
+            <p className='lg:w-6/12 mt-6'>
+              Musicfy is your all-in-one platform for real-time music trends,
+              artist analytics, and actionable insights to stay ahead in the
+              industry.
+            </p>
+          </div>
+        </section>
       </main>
     </>
   );
