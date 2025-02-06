@@ -43,7 +43,7 @@ export default function Home() {
 
             <div className='mt-20 flex flex-col items-center md:flex-row flex-wrap'>
               <div className='card-container md:w-6/12'>
-                <div className='card bg-[#ffffff05] rounded-sm p-10 w-[380px] sm:w-[450px] md:w-[97%]'>
+                <div className='card bg-[#111111] rounded-sm p-10 w-[380px] sm:w-[450px] md:w-[97%]'>
                   <h3 className='font-medium text-[32px]'>
                     Trending Statistics
                   </h3>
@@ -59,7 +59,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='card-container md:w-6/12 md:flex md:justify-end mt-7 md:mt-0'>
-                <div className='card bg-[#ffffff05] rounded-sm p-10 w-[380px] sm:w-[450px] md:w-[97%]'>
+                <div className='card bg-[#111111] rounded-sm p-10 w-[380px] sm:w-[450px] md:w-[97%]'>
                   <h3 className='font-medium text-[32px]'>Artist Analytics</h3>
                   <p className='text-sm mt-2 mb-10'>
                     Dive deep into artist performance, top sellers,
@@ -74,7 +74,7 @@ export default function Home() {
               </div>
 
               <div className='card-container mt-7 md:mt-5 lg:mt-7'>
-                <div className='card bg-[#ffffff05] rounded-sm p-10 w-[380px] sm:w-[450px] md:w-full md:flex md:justify-between md:items-center'>
+                <div className='card bg-[#111111] rounded-sm p-10 w-[380px] sm:w-[450px] md:w-full md:flex md:justify-between md:items-center'>
                   <div>
                     <h3 className='font-medium text-[32px]'>
                       Artist Analytics
