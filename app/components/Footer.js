@@ -68,24 +68,24 @@ export default function Footer() {
                     viewBox='0 0 18 18'
                     fill='none'
                   >
-                    <g clip-path='url(#clip0_90_10051)'>
+                    <g clipPath='url(#clip0_90_10051)'>
                       <path
                         d='M12.765 1.125H5.235C2.96511 1.125 1.125 2.96511 1.125 5.235V12.765C1.125 15.0349 2.96511 16.875 5.235 16.875H12.765C15.0349 16.875 16.875 15.0349 16.875 12.765V5.235C16.875 2.96511 15.0349 1.125 12.765 1.125Z'
                         stroke='white'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
                       />
                       <path
                         d='M9 13.125C11.2782 13.125 13.125 11.2782 13.125 9C13.125 6.72183 11.2782 4.875 9 4.875C6.72183 4.875 4.875 6.72183 4.875 9C4.875 11.2782 6.72183 13.125 9 13.125Z'
                         stroke='white'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
                       />
                       <path
                         d='M13.5 4.125C13.7071 4.125 13.875 3.95711 13.875 3.75C13.875 3.54289 13.7071 3.375 13.5 3.375C13.2929 3.375 13.125 3.54289 13.125 3.75C13.125 3.95711 13.2929 4.125 13.5 4.125Z'
                         stroke='white'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
                       />
                     </g>
                     <defs>
