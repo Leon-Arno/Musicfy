@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <main>
         <section className='py-40'>
-          <div className='container px-4'>
+          <div className='container lg:max-w-screen-lg px-4'>
             <div className='flex flex-col items-center justify-center'>
               <h1 className='font-medium text-5xl lg:text-6xl text-center mb-6 leading-snug'>
                 <span className='block'>Music Trends, Artists, and</span>
