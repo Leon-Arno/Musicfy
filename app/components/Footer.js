@@ -3,9 +3,9 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className='bg-black text-white pt-10 pb-7'>
-      <div className='container px-4'>
+      <div className='container lg:max-w-screen-lg px-4'>
         <div className='flex flex-col lg:flex-row justify-between lg:items-center'>
-          <span className='block font-semibold text-[90px] lg:text-[200px]'>
+          <span className='block font-semibold text-[80px] lg:text-[180px]'>
             Musicfy
           </span>
 
