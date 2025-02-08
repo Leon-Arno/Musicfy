@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <>
       <main>
+        {/*  Hero Section */}
         <section className='py-40'>
           <div className='container lg:max-w-screen-lg px-4'>
             <div className='flex flex-col items-center justify-center'>
@@ -32,6 +33,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/*  Features Section */}
         <section className='features bg-[#0C0C0C] text-white py-24'>
           <div className='container lg:max-w-screen-lg px-4'>
             <h2 className='font-medium text-4xl lg:text-5xl'>
@@ -101,6 +103,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/*  Benefits Section */}
         <section className='Benefits py-24'>
           <div className='container lg:max-w-screen-lg px-4'>
             <h2 className='font-medium text-4xl lg:text-5xl'>Benefits</h2>
@@ -142,6 +145,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/*  PaaS Section */}
         <section className='PaaS py-32 bg-[#0C0C0C] text-white'>
           <div className='container lg:max-w-screen-lg px-4'>
             <div className='flex flex-wrap justify-between'>
@@ -172,7 +176,7 @@ export default function Home() {
             </div>
 
             <Link
-              className='paas-cta flex justify-between items-center text-white rounded-sm mt-16 py-2 px-16 text-lg lg:text-2xl font-medium'
+              className='paas-cta flex justify-between items-center text-white rounded-sm mt-16 py-2 px-8 lg:px-16 text-lg lg:text-2xl font-medium'
               href='/pricing'
             >
               <span>Learn more about the best Music Platform-as-a-Service</span>
@@ -182,6 +186,27 @@ export default function Home() {
                 className='inline-block w-[60px] lg:w-auto'
               />
             </Link>
+          </div>
+        </section>
+
+        {/*  Final CTA */}
+        <section className='py-40'>
+          <div className='container lg:max-w-screen-lg px-4'>
+            <div className='flex flex-col items-center justify-center bg-[#F5F5F5] py-16 px-8 lg:px-0'>
+              <h2 className='font-medium text-4xl lg:text-5xl text-center mb-6 leading-snug'>
+                Transform Your Music Experience
+              </h2>
+              <p className='text-base text-center mb-8 max-w-[544px]'>
+                Join thousands of users unlocking powerful insights and trends
+                with Musicfy. Start your journey today!
+              </p>
+              <Link
+                className='inline-block py-3 px-5 bg-black text-white rounded-sm font-medium'
+                href={''}
+              >
+                Get Started for Free
+              </Link>
+            </div>
           </div>
         </section>
       </main>
