@@ -70,7 +70,7 @@ export default function Home() {
                   <Image
                     src={artistAnalytics}
                     alt=''
-                    className='w-[240px] md:w-auto'
+                    className='w-[240px] md:w-auto md:h-[179px] lg:h-[227px]'
                   />
                 </div>
               </div>
