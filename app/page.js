@@ -98,6 +98,47 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className='Benefits py-24'>
+          <div className='container lg:max-w-screen-lg px-4'>
+            <h2 className='font-medium text-4xl lg:text-5xl'>Benefits</h2>
+            <p className='lg:w-6/12 mt-6'>
+              Musicfy is your all-in-one platform for real-time music trends,
+              artist analytics, and actionable insights to stay ahead in the
+              industry.
+            </p>
+
+            <div className='flex flex-wrap justify-between mt-12'>
+              <div className='benefit-card bg-[#FFDC68] p-10 w-full lg:w-[32%] mb-5 lg:mb-0'>
+                <h3 className='font-medium text-2xl '>
+                  For Industry Professionals
+                </h3>
+                <p className='text-sm mt-2'>
+                  Make data-driven decisions to boost your music career or
+                  business.
+                </p>
+              </div>
+
+              <div className='benefit-card bg-[#FF6868] p-10 w-full lg:w-[32%] mb-5 lg:mb-0'>
+                <h3 className='font-medium text-2xl '>
+                  For Fans and Enthusiasts
+                </h3>
+                <p className='text-sm mt-2'>
+                  Stay ahead of the curve by discovering the next big artist or
+                  song.
+                </p>
+              </div>
+
+              <div className='benefit-card bg-[#A76CFF] p-10 w-full lg:w-[32%] mb-5 lg:mb-0'>
+                <h3 className='font-medium text-2xl '>For Subscribers</h3>
+                <p className='text-sm mt-2'>
+                  Unlock premium insights and analytics to elevate your music
+                  strategy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
