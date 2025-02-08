@@ -19,3 +19,19 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.paas-cta {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(
+      90deg,
+      #ffdc68 0%,
+      #d7a9b2 19.83%,
+      #a76cff 36.33%,
+      #ffa468 56.83%,
+      #ff8668 78.83%,
+      #ff6868 100%
+    )
+    1;
+  border-radius: 2px;
+}

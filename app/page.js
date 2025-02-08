@@ -3,6 +3,8 @@ import Link from 'next/link';
 import trendingStatistic from '../public/trending-statistic.svg';
 import artistAnalytics from '../public/artist-analytics.svg';
 import paasInsights from '../public/paas-insights.svg';
+import paasImage from '../public/paas.jpg';
+import arrow from '../public/arrow-long-right.svg';
 
 export default function Home() {
   return (
@@ -30,7 +32,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='features bg-black text-white py-24'>
+        <section className='features bg-[#0C0C0C] text-white py-24'>
           <div className='container lg:max-w-screen-lg px-4'>
             <h2 className='font-medium text-4xl lg:text-5xl'>
               Statistics. Analytics. Insights.
@@ -137,6 +139,49 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className='PaaS py-32 bg-[#0C0C0C] text-white'>
+          <div className='container lg:max-w-screen-lg px-4'>
+            <div className='flex flex-wrap justify-between'>
+              <div className='section-body lg:w-7/12'>
+                <h2 className='font-medium text-4xl lg:text-5xl'>
+                  Leading Music PaaS
+                </h2>
+                <p className='mt-6'>
+                  Musicfy is your all-in-one platform for real-time music
+                  trends, artist analytics, and actionable insights to stay
+                  ahead in the industry.
+                </p>
+
+                <ul className='mt-6 list-disc leading-7 pl-6'>
+                  <li>Over 10 million records </li>
+                  <li>Real time chart data</li>
+                  <li> Upcoming music exclusive studio previews</li>
+                  <li>API for your application</li>
+                  <li>Lossless and Hi-Res audio quality</li>
+                </ul>
+              </div>
+
+              <Image
+                src={paasImage}
+                alt=''
+                className='w-full lg:w-5/12 mt-10 lg:mt-0'
+              />
+            </div>
+
+            <Link
+              className='paas-cta flex justify-between items-center text-white rounded-sm mt-16 py-2 px-16 text-lg lg:text-2xl font-medium'
+              href='/pricing'
+            >
+              <span>Learn more about the best Music Platform-as-a-Service</span>
+              <Image
+                src={arrow}
+                alt=''
+                className='inline-block w-[60px] lg:w-auto'
+              />
+            </Link>
           </div>
         </section>
       </main>
