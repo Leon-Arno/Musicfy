@@ -190,7 +190,7 @@ export default function Home() {
         </section>
 
         {/*  Final CTA */}
-        <section className='py-40'>
+        <section className=' py-24 lg:py-32'>
           <div className='container lg:max-w-screen-lg px-4'>
             <div className='flex flex-col items-center justify-center bg-[#F5F5F5] py-16 px-8 lg:px-0'>
               <h2 className='font-medium text-4xl lg:text-5xl text-center mb-6 leading-snug'>
