@@ -6,6 +6,8 @@ import paasInsights from '../public/paas-insights.svg';
 import paasImage from '../public/paas.jpg';
 import arrow from '../public/arrow-long-right.svg';
 
+import Benefit from '@/stories/Benefit';
+
 export default function Home() {
   return (
     <>
@@ -114,33 +116,26 @@ export default function Home() {
             </p>
 
             <div className='flex flex-wrap justify-between mt-12'>
-              <div className='benefit-card bg-[#FFDC68] p-10 w-full lg:w-[32%] mb-5 lg:mb-0'>
-                <h3 className='font-medium text-2xl '>
-                  For Industry Professionals
-                </h3>
-                <p className='text-sm mt-2'>
-                  Make data-driven decisions to boost your music career or
-                  business.
-                </p>
-              </div>
+              <Benefit
+                title='For Industry Professionals'
+                body='Make data-driven decisions to boost your music career or
+                  business.'
+                bgColor='#FFDC68'
+              />
 
-              <div className='benefit-card bg-[#FF6868] p-10 w-full lg:w-[32%] mb-5 lg:mb-0'>
-                <h3 className='font-medium text-2xl '>
-                  For Fans and Enthusiasts
-                </h3>
-                <p className='text-sm mt-2'>
-                  Stay ahead of the curve by discovering the next big artist or
-                  song.
-                </p>
-              </div>
+              <Benefit
+                title='For Fans and Enthusiasts'
+                body='Stay ahead of the curve by discovering the next big artist or
+                  song.'
+                bgColor='#FF6868'
+              />
 
-              <div className='benefit-card bg-[#A76CFF] p-10 w-full lg:w-[32%] mb-5 lg:mb-0'>
-                <h3 className='font-medium text-2xl '>For Subscribers</h3>
-                <p className='text-sm mt-2'>
-                  Unlock premium insights and analytics to elevate your music
-                  strategy.
-                </p>
-              </div>
+              <Benefit
+                title='For Subscribers'
+                body='Unlock premium insights and analytics to elevate your music
+                  strategy.'
+                bgColor='#A76CFF'
+              />
             </div>
           </div>
         </section>
