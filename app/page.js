@@ -120,21 +120,21 @@ export default function Home() {
                 title='For Industry Professionals'
                 body='Make data-driven decisions to boost your music career or
                   business.'
-                bgColor='bg-[#FFDC68]'
+                colorValue='bg-[#FFDC68]'
               />
 
               <Benefit
                 title='For Fans and Enthusiasts'
                 body='Stay ahead of the curve by discovering the next big artist or
                   song.'
-                bgColor='bg-[#FF6868]'
+                colorValue='bg-[#FF6868]'
               />
 
               <Benefit
                 title='For Subscribers'
                 body='Unlock premium insights and analytics to elevate your music
                   strategy.'
-                bgColor='bg-[#A76CFF]'
+                colorValue='bg-[#A76CFF]'
               />
             </div>
           </div>

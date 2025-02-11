@@ -15,6 +15,6 @@ export const Default = {
   args: {
     title: 'Trending Statistics',
     body: 'Track real-time music trends and discover whats hot in the industry.',
-    bgColor: 'bg-[#FFDC68]',
+    colorValue: 'bg-[#FFAB68]',
   },
 };
